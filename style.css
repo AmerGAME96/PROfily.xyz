@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+
+/* Web-Header */
+header {
+  background-color: #fff;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+.web-title {
+  color: #000;
+  font-size: 1.9em;
+  font-weight: 850;
+  cursor: pointer;
+}
+.web-title span {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.inew-acc {
+  font-size: 1.7em;
+}
+
+
+/* Log-Sign btn */
+.log-btn {
+  background: linear-gradient(#004703, #005403);
+  cursor: pointer;
+  margin: 9px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 17px;
+  padding-left: 17px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 850;
+  font-size: 1.2em;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+  transition: 0.2s ease;
+}
+.log-btn:hover {
+  transform: scale(1.1);
+}
+
+
+.sign-btn {
+  background: #fff;
+  cursor: pointer;
+  margin: 9px;
+  color: #005403;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 17px;
+  padding-left: 17px;
+  border-radius: 3px;
+  border: 2px;
+  border-style: solid;
+  border-color: #005403;
+  font-weight: 850;
+  font-size: 1.2em;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+  transition: 0.2s ease;
+}
+.sign-btn:hover {
+  transform: scale(1.1);
+}
+
+
+.acc-img {
+  background: black;
+  color: #000000;
+  border-radius: 100px;
+  padding: 9px;
+  padding-right: 17px;
+  padding-left: 17px;
+  margin-left: 5px;
+}
+
+
+/* Tp-Seciton */
+.sec-tp {
+  background-color: #003B02;
+  width: 100%;
+  height: 380px;
+  padding-top: 135px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-tp {
+  background: linear-gradient(#004703, #005403);
+  border-radius: 4px;
+  box-shadow: 35 30px 35px rgba(0, 0, 0, .1);
+  padding: 15px;
+  margin-top: 40px;
+  width: 812px;
+}
+
+.nav-title {
+  color: #fff;
+  font-size: 1.9em;
+  font-family: 'Poppins';
+  cursor: default;
+}
+
+.nav-title-p {
+  color: #ededed;
+  font-weight: 650;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  cursor: default;
+}
+
+.nav-tp a {
+  color: #fff;
+  padding: 25px;
+  font-weight: 820;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+
+/* Web-Footer */
+.f-title {
+  color: #fff;
+  font-weight: 600;
+}
+
+.f-title span {
+  color: #0061fe;
+  cursor: pointer;
+}
+
+
+
+/***- ProFily Phones-Media -***/
+@media screen and (max-width: 767px) {
+  
+header {
+  background-color: #fff;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 24px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+  
+.web-title {
+  color: #000;
+  font-size: 1.6em;
+  font-weight: 850;
+  cursor: pointer;
+}
+.web-title span {
+  font-weight: 470;
+  cursor: pointer;
+}
+
+
+.inew-acc {
+  color: black;
+  
+}
+
+
+
+
+
+  
+}
+
+
+
+/* ---,  Log in-Page ,--- */
+
+
+
+
+/* ---,  Sign up-Page ,--- */
