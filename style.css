@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Poppins , sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -114,7 +114,7 @@ header {
   box-shadow: 35 30px 35px rgba(0, 0, 0, .1);
   padding: 15px;
   margin-top: 40px;
-  width: 82px;
+  width: 822px;
 }
 
 .nav-title {
